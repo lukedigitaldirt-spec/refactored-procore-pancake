@@ -1,0 +1,5 @@
+{
+  "arrival_rate": 0.5,
+  "service_rate": 0.1,
+  "servers": 6
+}
