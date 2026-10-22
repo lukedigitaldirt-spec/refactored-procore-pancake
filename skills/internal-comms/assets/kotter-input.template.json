@@ -1,0 +1,12 @@
+{
+  "steps": [
+    {"step": 1, "status": "complete"},
+    {"step": 2, "status": "in_progress"},
+    {"step": 3, "status": "not_started"},
+    {"step": 4, "status": "not_started"},
+    {"step": 5, "status": "not_started"},
+    {"step": 6, "status": "not_started"},
+    {"step": 7, "status": "not_started"},
+    {"step": 8, "status": "not_started"}
+  ]
+}

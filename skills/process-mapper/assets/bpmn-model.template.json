@@ -1,0 +1,20 @@
+{
+  "nodes": [
+    {"id": "start", "type": "startEvent",       "name": "Request received"},
+    {"id": "t1",    "type": "task",             "name": "Triage request"},
+    {"id": "g1",    "type": "exclusiveGateway", "name": "Amount > $10k?"},
+    {"id": "t2",    "type": "task",             "name": "Manager approval"},
+    {"id": "t3",    "type": "task",             "name": "Auto-approve"},
+    {"id": "t4",    "type": "task",             "name": "Fulfill request"},
+    {"id": "end",   "type": "endEvent",         "name": "Request closed"}
+  ],
+  "flows": [
+    {"from": "start", "to": "t1"},
+    {"from": "t1",    "to": "g1"},
+    {"from": "g1",    "to": "t2"},
+    {"from": "g1",    "to": "t3"},
+    {"from": "t2",    "to": "t4"},
+    {"from": "t3",    "to": "t4"},
+    {"from": "t4",    "to": "end"}
+  ]
+}

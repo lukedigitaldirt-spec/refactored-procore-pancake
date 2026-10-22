@@ -1,0 +1,8 @@
+{
+  "stakeholders": [
+    {"name": "Executive sponsor", "power": 5, "interest": 5},
+    {"name": "CFO", "power": 5, "interest": 2},
+    {"name": "Support team lead", "power": 2, "interest": 5},
+    {"name": "Affected end user", "power": 1, "interest": 3}
+  ]
+}

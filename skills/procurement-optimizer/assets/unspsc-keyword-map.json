@@ -1,0 +1,11 @@
+{
+  "_comment": "Starter UNSPSC-aligned keyword map for spend_categorizer.py. Keys are spend categories loosely aligned to UNSPSC Segments/Families; values are lowercase substrings matched case-insensitively against line-item descriptions. Order matters: the FIRST category with a keyword hit wins. Tune keywords to your own PO/AP free-text before trusting the coding, and map to real 8-digit UNSPSC commodity codes for audited work.",
+  "IT Hardware": ["laptop", "desktop", "server", "monitor", "keyboard", "router", "switch", "printer", "workstation", "tablet"],
+  "Software": ["software", "license", "subscription", "saas", "cloud", "platform", "api", "seat"],
+  "Office Supplies": ["paper", "pen", "pencil", "toner", "ink", "stapler", "notebook", "folder", "envelope"],
+  "Professional Services": ["consulting", "advisory", "legal", "counsel", "audit", "accounting", "staffing", "contractor", "recruiting"],
+  "Facilities": ["rent", "lease", "cleaning", "janitorial", "hvac", "maintenance", "utilities", "electricity", "security"],
+  "Travel": ["airfare", "flight", "hotel", "lodging", "rental car", "taxi", "rail", "mileage", "per diem"],
+  "Marketing": ["advertising", "media", "campaign", "agency", "branding", "events", "sponsorship", "print collateral", "seo"],
+  "Logistics": ["freight", "shipping", "courier", "warehousing", "pallet", "customs", "trucking", "parcel", "drayage"]
+}

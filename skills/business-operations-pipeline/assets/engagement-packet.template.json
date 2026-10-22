@@ -1,0 +1,40 @@
+{
+  "engagement": {
+    "goal": "<the one-sentence outcome this engagement must deliver>",
+    "play": "<play name chosen by play_selector.py, or 'custom'>",
+    "owner": "<who owns the overall engagement>",
+    "started": "<date>"
+  },
+  "raw_inputs": {
+    "process_steps": "<path or inline for process-mapper, if diagnose runs>",
+    "demand": "<units/period, if sizing>",
+    "spend": "<line items, if sourcing>",
+    "sla_targets": "<targets, if governing>"
+  },
+  "stages": [
+    {
+      "order": 1,
+      "skill": "process-mapper",
+      "stage": "diagnose",
+      "status": "pending",
+      "conclusion": "<filled after the forked sub-skill returns>",
+      "decision_it_drives": "<what the next stage should do with this>",
+      "artifact": "<map / numbers produced>",
+      "blocker": null
+    },
+    {
+      "order": 2,
+      "skill": "capacity-planner",
+      "stage": "size",
+      "status": "pending",
+      "conclusion": "",
+      "decision_it_drives": "",
+      "artifact": "",
+      "blocker": null
+    }
+  ],
+  "final_summary": {
+    "per_stage": "<one line each>",
+    "recommended_next_action": "<the single next step>"
+  }
+}

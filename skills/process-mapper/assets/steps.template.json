@@ -1,0 +1,8 @@
+[
+  {"name": "Request submitted",   "process": 5,   "wait": 0},
+  {"name": "Queued for triage",   "process": 0,   "wait": 240},
+  {"name": "Triage",              "process": 10,  "wait": 0},
+  {"name": "Await approval",      "process": 0,   "wait": 960},
+  {"name": "Approve",             "process": 8,   "wait": 0},
+  {"name": "Fulfill",             "process": 30,  "wait": 120}
+]

@@ -1,0 +1,19 @@
+{
+  "line_items": [
+    {"description": "Dell Latitude laptops (fleet refresh)", "supplier": "Dell", "amount": 45000},
+    {"description": "Datadog observability subscription",    "supplier": "Datadog", "amount": 60000},
+    {"description": "Printer paper and toner",               "supplier": "Staples", "amount": 3200},
+    {"description": "Outside counsel retainer",              "supplier": "Baker LLP", "amount": 85000},
+    {"description": "Q3 digital advertising campaign",       "supplier": "Agency X", "amount": 52000},
+    {"description": "Freight and parcel shipping",           "supplier": "FedEx", "amount": 18000},
+    {"description": "Bespoke calibration fixtures",          "supplier": "Acme Fab", "amount": 9400}
+  ],
+  "category_map": {
+    "IT Hardware":          ["laptop", "server", "monitor", "workstation"],
+    "Software":             ["subscription", "license", "saas", "platform"],
+    "Office Supplies":      ["paper", "toner", "pen", "folder"],
+    "Professional Services": ["counsel", "legal", "consulting", "audit"],
+    "Marketing":            ["advertising", "campaign", "media", "agency"],
+    "Logistics":            ["freight", "shipping", "parcel", "courier"]
+  }
+}

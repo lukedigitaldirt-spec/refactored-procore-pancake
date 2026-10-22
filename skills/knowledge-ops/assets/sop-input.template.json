@@ -1,0 +1,16 @@
+{
+  "title": "Process a non-PO vendor invoice",
+  "purpose": "Ensure non-PO invoices are validated and paid accurately, on terms, without late fees.",
+  "scope": "All non-PO vendor invoices under $5,000 entered in NetSuite. Excludes PO-backed and intercompany invoices.",
+  "roles": ["AP clerk", "AP manager"],
+  "steps": [
+    "Open the invoice in the NetSuite AP module.",
+    "Verify the vendor, amount, and remittance details against the invoice PDF.",
+    "Match the invoice to the receiving record.",
+    "If the amount exceeds $5,000, route to the AP manager for approval.",
+    "Post the invoice and schedule payment per the vendor's terms."
+  ],
+  "revision_history": [
+    {"version": "1.0", "date": "2026-01-01", "author": "ops", "change": "Initial release"}
+  ]
+}

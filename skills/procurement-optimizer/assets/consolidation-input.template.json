@@ -1,0 +1,15 @@
+{
+  "records": [
+    {"supplier": "Dell",    "category": "IT Hardware", "amount": 50000},
+    {"supplier": "Lenovo",  "category": "IT Hardware", "amount": 30000},
+    {"supplier": "HP",      "category": "IT Hardware", "amount": 22000},
+    {"supplier": "Datadog", "category": "Software",    "amount": 60000},
+    {"supplier": "Staples", "category": "Office Supplies", "amount": 4000},
+    {"supplier": "WB Mason", "category": "Office Supplies", "amount": 3500},
+    {"supplier": "FedEx",   "category": "Logistics",   "amount": 18000},
+    {"supplier": "UPS",     "category": "Logistics",   "amount": 15000},
+    {"supplier": "DHL",     "category": "Logistics",   "amount": 7000}
+  ],
+  "savings_rate_pct": 8,
+  "min_suppliers_to_flag": 2
+}

@@ -1,0 +1,7 @@
+{
+  "contact_volume": 5000,
+  "aht_seconds": 300,
+  "period_paid_hours_per_fte": 160,
+  "shrinkage_pct": 30,
+  "occupancy_cap_pct": 85
+}

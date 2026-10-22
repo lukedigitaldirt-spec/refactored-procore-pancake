@@ -1,0 +1,8 @@
+{
+  "calls_per_interval": 100,
+  "interval_seconds": 1800,
+  "aht_seconds": 180,
+  "agents": 14,
+  "target_answer_seconds": 20,
+  "target_service_level": 0.8
+}
