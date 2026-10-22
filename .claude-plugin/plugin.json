@@ -1,0 +1,27 @@
+{
+  "name": "business-operations-skills",
+  "description": "6 BizOps skills + an orchestrator + a pipeline runner: process-mapper (BPMN + bottleneck + cycle-time), vendor-management (SLA + risk + scorecard), capacity-planner (Erlang-C queueing math for ops teams), internal-comms (ADKAR + Kotter 8-step change comms), knowledge-ops (SOP + runbook authoring with 5W2H validation, context: fork), procurement-optimizer (UNSPSC-aligned spend categorization + supplier consolidation). The business-operations-skills orchestrator uses context: fork to route an inquiry to the right sub-skill; the business-operations-pipeline runner (context: fork) chains several sub-skills in a named 'play' as one end-to-end engagement. 19 stdlib-only Python tools, 26+ reference docs each citing >=7 authoritative sources, asset templates per skill. Distinct from business-growth (external sales) and c-level-advisor (strategic).",
+  "version": "2.10.0",
+  "author": {
+    "name": "Alireza Rezvani",
+    "url": "https://alirezarezvani.com"
+  },
+  "homepage": "https://github.com/alirezarezvani/claude-skills/tree/main/business-operations",
+  "repository": "https://github.com/alirezarezvani/claude-skills",
+  "license": "MIT",
+  "skills": [
+    "./skills/business-operations-skills",
+    "./skills/business-operations-pipeline",
+    "./skills/process-mapper",
+    "./skills/vendor-management",
+    "./skills/capacity-planner",
+    "./skills/internal-comms",
+    "./skills/knowledge-ops",
+    "./skills/procurement-optimizer"
+  ],
+  "source": {
+    "spec": "documentation/implementation/bizops-commercial-expansion-plan.md",
+    "build_pattern": "Path B (direct conversion). The business-operations-skills orchestrator uses context: fork to route to ONE sub-skill; the business-operations-pipeline runner (context: fork) chains SEVERAL sub-skills as a named play. Sprint 1 shipped orchestrator + process-mapper + vendor-management. Sprint 2 added capacity-planner (Erlang-C), internal-comms (ADKAR+Kotter), knowledge-ops (5W2H SOP+runbook), procurement-optimizer (UNSPSC). Sprint 3 added the pipeline runner with named plays. Every SKILL.md ships a Forcing-question library per Matt Pocock grill-with-docs discipline.",
+    "distinct_from": "business-growth (external sales motion: CSM, sales engineering, RevOps, contracts). c-level-advisor (strategic executive judgment, not operational tactics). engineering/slo-architect (system reliability, not business-process reliability). engineering/llm-wiki (personal PKM, not company SOPs)."
+  }
+}
