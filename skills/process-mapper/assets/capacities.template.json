@@ -1,0 +1,6 @@
+[
+  {"name": "Intake",   "capacity": 120},
+  {"name": "Triage",   "capacity": 60},
+  {"name": "Approve",  "capacity": 40},
+  {"name": "Fulfill",  "capacity": 90}
+]
