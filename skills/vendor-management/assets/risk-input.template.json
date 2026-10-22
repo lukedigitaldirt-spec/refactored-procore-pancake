@@ -1,0 +1,19 @@
+{
+  "name": "Acme Components Ltd",
+  "supply_risk": 4,
+  "profit_impact": 2,
+  "dimensions": {
+    "financial": 3,
+    "operational": 4,
+    "compliance": 2,
+    "concentration": 5,
+    "geographic": 1
+  },
+  "weights": {
+    "financial": 0.3,
+    "operational": 0.25,
+    "compliance": 0.2,
+    "concentration": 0.15,
+    "geographic": 0.1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "vendor": "Acme Components Ltd",
+  "criteria": [
+    {"name": "Quality",        "score": 4, "weight": 0.30},
+    {"name": "Delivery",       "score": 3, "weight": 0.25},
+    {"name": "Cost",           "score": 5, "weight": 0.20},
+    {"name": "Service",        "score": 4, "weight": 0.15},
+    {"name": "Responsiveness", "score": 2, "weight": 0.10}
+  ]
+}

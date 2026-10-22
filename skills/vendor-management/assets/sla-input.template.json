@@ -1,0 +1,10 @@
+{
+  "target_pct": 99.9,
+  "period_hours": 720,
+  "downtime_minutes": 130,
+  "credit_tiers": [
+    {"below_pct": 99.9, "credit_pct": 10},
+    {"below_pct": 99.0, "credit_pct": 25},
+    {"below_pct": 95.0, "credit_pct": 50}
+  ]
+}
