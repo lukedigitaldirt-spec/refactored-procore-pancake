@@ -1,0 +1,12 @@
+{
+  "spend": [
+    {"name": "Supplier A", "amount": 500000},
+    {"name": "Supplier B", "amount": 220000},
+    {"name": "Supplier C", "amount": 140000},
+    {"name": "Supplier D", "amount": 60000},
+    {"name": "Supplier E", "amount": 32000},
+    {"name": "Supplier F", "amount": 18000},
+    {"name": "Supplier G", "amount": 9000},
+    {"name": "Supplier H", "amount": 4000}
+  ]
+}
