@@ -1,0 +1,11 @@
+{
+  "change": "<name of the change, e.g. New CRM rollout>",
+  "scores": {
+    "awareness": 3,
+    "desire": 3,
+    "knowledge": 3,
+    "ability": 3,
+    "reinforcement": 3
+  },
+  "threshold": 3
+}
